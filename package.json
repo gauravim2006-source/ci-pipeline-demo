@@ -1,0 +1,16 @@
+{
+  "name": "ci-pipeline-demo",
+  "version": "1.0.0",
+  "description": "Continuous Integration Pipeline Using GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js index.test.js",
+    "test": "jest --coverage",
+    "build": "node --check index.js"
+  },
+  "devDependencies": {
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "jest": "^30.5.2"
+  }
+}
